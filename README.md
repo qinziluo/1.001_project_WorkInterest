@@ -1,1 +1,2 @@
-# 1.001_project_WorkInterest
+# WorkInterest
+Project for MIT 1.001
