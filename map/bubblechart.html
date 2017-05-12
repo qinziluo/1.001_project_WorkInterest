@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="./localdataset/jobbubble.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="./d3/d3.tip.js"></script>
+<script src="./catalog_graph.js"></script>
+<link rel="stylesheet" href="styles-example.css">
+
+<style>
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 2px;
+}
+
+</style>
+<body>
+    <div id="target"></div>
+</body>
+<script>
+    $.url = function (name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        return results[1] || 0;
+    }
+
+    var city = $.url('city');
+    city = decodeURIComponent(city);
+// console.log(scores);
+   var scores=scores[city];
+    console.log(scores);
+
+    // visualize data
+    graph();
+
+</script>
+
+
+
+</html>

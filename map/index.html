@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html data-xlabs-extension="1" data-xlabs-extension-ready="1" data-xlabs-extension-version="2.6.1"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>LocalIndex</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./index_files/w3.css">
+<link rel="stylesheet" href="./index_files/css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+</style>
+
+
+
+
+<style type="text/css">#xLabsCanvas{pointer-events:none;top:0;left:0;position:fixed;z-index:2147483646;}#xLabsCanvas.allow-pointer{pointer-events:auto;}</style></head><body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<div class="w3-container w3-center w3-padding-32">
+  <!--<h1><b>Pranam Tries To Make Things</b></h1>-->
+  <!-- <p>WorkInterest</p> -->
+
+
+  <div class="w3-btn-group w3-show-inline-block">
+    <p><a id = "bubbletag" class="w3-btn w3-hover-yellow" >Preferences and Key Words</a></p>
+  </div>
+    <div  class="w3-btn-group w3-show-inline-block">
+    <p><a id = "googletag" class="w3-btn w3-hover-green" >Most Popular Companies</a></p>
+  </div>
+      
+    
+</div>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div>
+  <!-- Blog entry -->
+  <!--<div id = class="w3-card-4 w3-margin w3-white"> -->
+<!--    <div class="w3-container w3-center">
+    <div class="w3-container w3-padding-8">
+
+    </div>
+  </div>  -->
+    <div id = "chart"></div>
+    <!-- <div id = "googlechart"></div> -->
+
+    </div>
+  </div>
+  <hr>
+
+<!-- END BLOG ENTRIES -->
+</div>
+
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+
+<script>
+  var get_variable = function(){
+    $.url = function(name) {
+         var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+         return results[1] || 0;     
+    };
+    var c = $.url('city'); 
+    c = decodeURIComponent(c); 
+    return c
+  };
+
+  var c = get_variable()
+
+  var triggerbubble = function(){
+    console.log('check:', c)
+    document.getElementById("chart").innerHTML = '<iframe width="850" height="500" frameborder="0" style="border:0" src="./bubblechart.html?city='+encodeURIComponent(c)+'"></iframe>'
+  }
+
+  var triggerchart = function(){
+    document.getElementById("chart").innerHTML = '<iframe width="850" align="center" height="500" frameborder="0" style="border:0" src="./googlechart.html?city='+encodeURIComponent(c)+'"></iframe>'
+  }
+
+
+  document.getElementById('bubbletag')
+        .addEventListener('click', function (event) {
+           triggerbubble();
+        });
+  document.getElementById('googletag')
+        .addEventListener('click', function (event) {
+           triggerchart();
+        });
+  triggerbubble(); 
+  // $(".w3-btn w3-hover-yellow").click(function(){
+  //   triggerbubble()
+  // })
+
+  // $(".googletag").click(function(){
+  //   triggerchart()
+  // })
+
+  </script>
+<!-- END w3-content -->
+
+
+
+
+<canvas id="xLabsCanvas" width="1279" height="565" style="background: 0px center; display: none; width: 1163px; height: 514px;"></canvas></body></html>

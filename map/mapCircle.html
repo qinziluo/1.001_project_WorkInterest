@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .floater {
+	    position: absolute;
+
+	    /*width: 10%; */
+	    /*height: 10%; */
+	    left: 80px; 
+	    bottom: 0px; 
+        /*background: blue;*/
+      }
+
+      .modal-body {
+        text-align: center;
+      }
+      .modal-lg {
+        /*width: 692px !important;*/]
+        width: 1000 px;}      
+      }
+
+    </style>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+<!--     <h5>Title</h5>
+ --> 
+    
+
+    <div id="map"></div>
+    <div class="floater">
+	    
+      <a href = "https://github.com/jmsun10/WorkInterest"> <img src="logo_change.PNG" ></img></a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="floater">
+	    <img src="logo.png"></img>
+    </div>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="amountToMap_data.js"></script>
+    <script src="salaryRequested_update.js"></script>
+    <script src="./style/mapstyle.js"></script>
+    <script>
+      var map;
+
+
+
+
+
+        var center = {lat:39.850033, lng: -97.6500523};
+        function CenterControl(controlDiv, map) {
+
+        // Set CSS for the control border.
+        var controlUI = document.createElement('div');
+
+        controlUI.style.backgroundColor = '#fff';
+        controlUI.style.border = '2px solid #fff';
+        controlUI.style.borderRadius = '3px';
+        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+        controlUI.style.cursor = 'pointer';
+        controlUI.style.marginBottom = '22px';
+        controlUI.style.textAlign = 'center';
+        controlUI.title = 'Click to recenter';
+        controlDiv.appendChild(controlUI);
+
+        // Set CSS for the control interior.
+        var controlText = document.createElement('div');
+        controlText.style.color = 'rgb(25,25,25)';
+        controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+        controlText.style.fontSize = '12px';
+        controlText.style.lineHeight = '30px';
+        controlText.style.paddingLeft = '5px';
+        controlText.style.paddingRight = '5px';
+        controlText.innerHTML = 'Back to Center';
+        controlUI.appendChild(controlText);
+
+        // Setup the click event listeners: simply set the map to Chicago.
+        controlUI.addEventListener('click', function() {
+          map.panTo(center); 
+          map.setZoom(5); 
+        });
+      }
+
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 5,
+          center: {lat: 39.850033, lng: -97.6500523},         
+          styles: styles_light, 
+          mapTypeId: 'terrain',
+          mapTypeControl: false 
+        });
+ 
+        // control button
+        var centerControlDiv = document.createElement('div');
+        var centerControl = new CenterControl(centerControlDiv, map);
+
+        centerControlDiv.index = 1;
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(centerControlDiv);
+
+
+
+        circle_list = {}
+        for(var city in cityMapData) {
+          var Circle = {
+              path: google.maps.SymbolPath.CIRCLE,
+              fillOpacity: .35,
+              fillColor: "#BA3075",
+              strokeOpacity: .8,
+              strokeColor: "white",
+              strokeWeight: .6,
+              scale: Math.sqrt(cityMapData[city].amount)/6,
+              // radius: Math.sqrt(cityMapData[city].amount) * 100000
+          };
+          circle_list[city] = Circle
+        }
+        for(var city in cityMapData) {
+
+          (function() {
+            var c_pre = city.split(',')[0];
+            var c_list = c_pre.split(' ');
+            if (c_list.length === 1) var c = c_list[0];
+            else var c = c_list[0] + c_list[1]
+            console.log(c);
+            var latLng = new google.maps.LatLng(cityMapData[city].center.lat, cityMapData[city].center.lng);
+            // var distanceInkm = Math.sqrt(cityMapData[city].amount) * 1000;
+            var radius_value = Math.sqrt(cityMapData[city].amount) * 1000;
+            // Circle.setRadius(radius: parseFloat(radius_value));
+            // console.log(latLng);
+            var newCircle = new google.maps.Marker({
+                icon: circle_list[city],
+                position: latLng,
+                // draggable: true,
+                animation: google.maps.Animation.DROP,
+                title:city + ": " + cityMapData[city].amount.toString() + " jobs"
+                // setRadius(radius:Math.sqrt(cityMapData[city].amount) * 1000)
+                // radius: Math.sqrt(cityMapData[city].amount) * 1000
+            });
+                //   console.log(salaryRequested); 
+                  var salaries = salaryRequested[c];
+                //   console.log(salaries);
+                  var inforwindowtitle = "Top Jobs"+ "' " + " Salaries in "+ city.split(",")[0] + ":"
+                  var salarystr = '';
+                  for (var title in salaries){
+                      var base = title + ': ' + salaries[title];
+                      salarystr += base + '<br>';
+                  }
+                  var contentstr = salarystr; 
+                  console.log(contentstr);
+
+                  var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h1 id="firstHeading" class="firstHeading" style="font-size:120%; font-family:Arial;">'+inforwindowtitle+'</h1>' +
+                '<div id="bodyContent">'+
+                 contentstr +
+                '</div>'+
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                // content:' Top Jobs Salaries in '+ city.split(",")[0] +':'
+                content: contentString
+                });
+            // var infoWindow = new google.maps.InfoWindow();
+            // console.log(infowindow)
+            
+            newCircle.addListener('mouseover', function(){
+                infowindow.open(map, newCircle);
+            }); 
+            newCircle.addListener('mouseout',function(){
+                infowindow.close();
+            });
+            newCircle.addListener('click', function() {
+              
+
+              map.panTo(latLng);
+              map.setZoom(12);
+              //infowindow.open(map, newCircle);
+              // var content = '<iframe width="654" height="328" frameborder="0" style="border:0" src="./googlechart.html?city='+encodeURIComponent(c)+'"></iframe>'
+
+              var titlelist = newCircle.title.split(':');
+            //   console.log(titlelist); 
+              document.getElementById("myModalLabel").innerHTML = titlelist[0];
+              // console.log(title); 
+              // title = city; 
+              var content = '<iframe width="850" height="600" frameborder="0" style="border:0" src="./index.html?city='+encodeURIComponent(c)+'"></iframe>'
+              console.log(content);
+              $('#myModal .modal-body').html(content);
+
+              $('#myModal').modal({})
+            });
+
+            newCircle.setMap(map);
+          })();
+
+          
+        }
+      }
+
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGX8Pow3ilEfk1CGFc7Ubw1ykeFUdLYWg&language=en&callback=initMap">
+    </script>
+  </body>
+</html>

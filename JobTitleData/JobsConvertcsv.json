@@ -1,0 +1,3468 @@
+[
+
+ {
+   "FIELD1": "Accountant"
+ },
+ {
+   "FIELD1": "Accounts Assistant"
+ },
+ {
+   "FIELD1": "Accounts Clerk"
+ },
+ {
+   "FIELD1": "Accounts Manager"
+ },
+ {
+   "FIELD1": "Accounts Staff"
+ },
+ {
+   "FIELD1": "Acoustic Engineer"
+ },
+ {
+   "FIELD1": "Actor"
+ },
+ {
+   "FIELD1": "Actress"
+ },
+ {
+   "FIELD1": "Actuary"
+ },
+ {
+   "FIELD1": "Acupuncturist"
+ },
+ {
+   "FIELD1": "Adjustor"
+ },
+ {
+   "FIELD1": "Administration Assistant"
+ },
+ {
+   "FIELD1": "Administration Clerk"
+ },
+ {
+   "FIELD1": "Administration Manager"
+ },
+ {
+   "FIELD1": "Administration Staff"
+ },
+ {
+   "FIELD1": "Administrator"
+ },
+ {
+   "FIELD1": "Advertising Agent"
+ },
+ {
+   "FIELD1": "Advertising Assistant"
+ },
+ {
+   "FIELD1": "Advertising Clerk"
+ },
+ {
+   "FIELD1": "Advertising Contractor"
+ },
+ {
+   "FIELD1": "Advertising Executive"
+ },
+ {
+   "FIELD1": "Advertising Manager"
+ },
+ {
+   "FIELD1": "Advertising Staff"
+ },
+ {
+   "FIELD1": "Aerial Erector"
+ },
+ {
+   "FIELD1": "Aerobic Instructor"
+ },
+ {
+   "FIELD1": "Aeronautical Engineer"
+ },
+ {
+   "FIELD1": "Agent"
+ },
+ {
+   "FIELD1": "Air Traffic Controller"
+ },
+ {
+   "FIELD1": "Aircraft Designer"
+ },
+ {
+   "FIELD1": "Aircraft Engineer"
+ },
+ {
+   "FIELD1": "Aircraft Maintenance Engineer"
+ },
+ {
+   "FIELD1": "Aircraft Surface Finisher"
+ },
+ {
+   "FIELD1": "Airman"
+ },
+ {
+   "FIELD1": "Airport Controller"
+ },
+ {
+   "FIELD1": "Airport Manager"
+ },
+ {
+   "FIELD1": "Almoner"
+ },
+ {
+   "FIELD1": "Ambulance Controller"
+ },
+ {
+   "FIELD1": "Ambulance Crew"
+ },
+ {
+   "FIELD1": "Ambulance Driver"
+ },
+ {
+   "FIELD1": "Amusement Arcade Worker"
+ },
+ {
+   "FIELD1": "Anaesthetist"
+ },
+ {
+   "FIELD1": "Analyst"
+ },
+ {
+   "FIELD1": "Analytical Chemist"
+ },
+ {
+   "FIELD1": "Animal Breeder"
+ },
+ {
+   "FIELD1": "Anthropologist"
+ },
+ {
+   "FIELD1": "Antique Dealer"
+ },
+ {
+   "FIELD1": "Applications Engineer"
+ },
+ {
+   "FIELD1": "Applications Programmer"
+ },
+ {
+   "FIELD1": "Arbitrator"
+ },
+ {
+   "FIELD1": "Arborist"
+ },
+ {
+   "FIELD1": "Archaeologist"
+ },
+ {
+   "FIELD1": "Architect"
+ },
+ {
+   "FIELD1": "Archivist"
+ },
+ {
+   "FIELD1": "Area Manager"
+ },
+ {
+   "FIELD1": "Armourer"
+ },
+ {
+   "FIELD1": "Aromatherapist"
+ },
+ {
+   "FIELD1": "Art Critic"
+ },
+ {
+   "FIELD1": "Art Dealer"
+ },
+ {
+   "FIELD1": "Art Historian"
+ },
+ {
+   "FIELD1": "Art Restorer"
+ },
+ {
+   "FIELD1": "Artexer"
+ },
+ {
+   "FIELD1": "Artist"
+ },
+ {
+   "FIELD1": "Arts"
+ },
+ {
+   "FIELD1": "Assembly Worker"
+ },
+ {
+   "FIELD1": "Assessor"
+ },
+ {
+   "FIELD1": "Assistant"
+ },
+ {
+   "FIELD1": "Assistant Caretaker"
+ },
+ {
+   "FIELD1": "Assistant Cook"
+ },
+ {
+   "FIELD1": "Assistant Manager"
+ },
+ {
+   "FIELD1": "Assistant Nurse"
+ },
+ {
+   "FIELD1": "Assistant Teacher"
+ },
+ {
+   "FIELD1": "Astrologer"
+ },
+ {
+   "FIELD1": "Astronomer"
+ },
+ {
+   "FIELD1": "Attendant"
+ },
+ {
+   "FIELD1": "Au Pair"
+ },
+ {
+   "FIELD1": "Auction Worker"
+ },
+ {
+   "FIELD1": "Auctioneer"
+ },
+ {
+   "FIELD1": "Audiologist"
+ },
+ {
+   "FIELD1": "Audit Clerk"
+ },
+ {
+   "FIELD1": "Audit Manager"
+ },
+ {
+   "FIELD1": "Auditor"
+ },
+ {
+   "FIELD1": "Auto Electrician"
+ },
+ {
+   "FIELD1": "Auxiliary Nurse"
+ },
+ {
+   "FIELD1": "Bacon Curer"
+ },
+ {
+   "FIELD1": "Baggage Handler"
+ },
+ {
+   "FIELD1": "Bailiff"
+ },
+ {
+   "FIELD1": "Baker"
+ },
+ {
+   "FIELD1": "Bakery Assistant"
+ },
+ {
+   "FIELD1": "Bakery Manager"
+ },
+ {
+   "FIELD1": "Bakery Operator"
+ },
+ {
+   "FIELD1": "Balloonist"
+ },
+ {
+   "FIELD1": "Bank Clerk"
+ },
+ {
+   "FIELD1": "Bank Manager"
+ },
+ {
+   "FIELD1": "Bank Messenger"
+ },
+ {
+   "FIELD1": "Baptist Minister"
+ },
+ {
+   "FIELD1": "Bar Manager"
+ },
+ {
+   "FIELD1": "Bar Steward"
+ },
+ {
+   "FIELD1": "Barber"
+ },
+ {
+   "FIELD1": "Barmaid"
+ },
+ {
+   "FIELD1": "Barman"
+ },
+ {
+   "FIELD1": "Barrister"
+ },
+ {
+   "FIELD1": "Beautician"
+ },
+ {
+   "FIELD1": "Beauty Therapist"
+ },
+ {
+   "FIELD1": "Betting Shop"
+ },
+ {
+   "FIELD1": "Bill Poster"
+ },
+ {
+   "FIELD1": "Bingo Caller"
+ },
+ {
+   "FIELD1": "Biochemist"
+ },
+ {
+   "FIELD1": "Biologist"
+ },
+ {
+   "FIELD1": "Blacksmith"
+ },
+ {
+   "FIELD1": "Blind Assembler"
+ },
+ {
+   "FIELD1": "Blind Fitter"
+ },
+ {
+   "FIELD1": "Blinds Installer"
+ },
+ {
+   "FIELD1": "Boat Builder"
+ },
+ {
+   "FIELD1": "Body Fitter"
+ },
+ {
+   "FIELD1": "Bodyguard"
+ },
+ {
+   "FIELD1": "Bodyshop"
+ },
+ {
+   "FIELD1": "Book Binder"
+ },
+ {
+   "FIELD1": "Book Seller"
+ },
+ {
+   "FIELD1": "Book-Keeper"
+ },
+ {
+   "FIELD1": "Booking Agent"
+ },
+ {
+   "FIELD1": "Booking Clerk"
+ },
+ {
+   "FIELD1": "Bookmaker"
+ },
+ {
+   "FIELD1": "Botanist"
+ },
+ {
+   "FIELD1": "Branch Manager"
+ },
+ {
+   "FIELD1": "Breeder"
+ },
+ {
+   "FIELD1": "Brewer"
+ },
+ {
+   "FIELD1": "Brewery Manager"
+ },
+ {
+   "FIELD1": "Brewery Worker"
+ },
+ {
+   "FIELD1": "Bricklayer"
+ },
+ {
+   "FIELD1": "Broadcaster"
+ },
+ {
+   "FIELD1": "Builder"
+ },
+ {
+   "FIELD1": "Builders Labourer"
+ },
+ {
+   "FIELD1": "Building Advisor"
+ },
+ {
+   "FIELD1": "Building Control"
+ },
+ {
+   "FIELD1": "Building Engineer"
+ },
+ {
+   "FIELD1": "Building Estimator"
+ },
+ {
+   "FIELD1": "Building Foreman"
+ },
+ {
+   "FIELD1": "Building Inspector"
+ },
+ {
+   "FIELD1": "Building Manager"
+ },
+ {
+   "FIELD1": "Building Surveyor"
+ },
+ {
+   "FIELD1": "Bursar"
+ },
+ {
+   "FIELD1": "Bus Company"
+ },
+ {
+   "FIELD1": "Bus Conductor"
+ },
+ {
+   "FIELD1": "Bus Driver"
+ },
+ {
+   "FIELD1": "Bus Mechanic"
+ },
+ {
+   "FIELD1": "Bus Valeter"
+ },
+ {
+   "FIELD1": "Business Consultant"
+ },
+ {
+   "FIELD1": "Business Proprietor"
+ },
+ {
+   "FIELD1": "Butcher"
+ },
+ {
+   "FIELD1": "Butchery Manager"
+ },
+ {
+   "FIELD1": "Butler"
+ },
+ {
+   "FIELD1": "Buyer"
+ },
+ {
+   "FIELD1": "Cab Driver"
+ },
+ {
+   "FIELD1": "Cabinet Maker"
+ },
+ {
+   "FIELD1": "Cable Contractor"
+ },
+ {
+   "FIELD1": "Cable Jointer"
+ },
+ {
+   "FIELD1": "Cable TV Installer"
+ },
+ {
+   "FIELD1": "Cafe Owner"
+ },
+ {
+   "FIELD1": "Cafe Staff"
+ },
+ {
+   "FIELD1": "Cafe Worker"
+ },
+ {
+   "FIELD1": "Calibration Manager"
+ },
+ {
+   "FIELD1": "Camera Repairer"
+ },
+ {
+   "FIELD1": "Cameraman"
+ },
+ {
+   "FIELD1": "Car Dealer"
+ },
+ {
+   "FIELD1": "Car Delivery Driver"
+ },
+ {
+   "FIELD1": "Car Park Attendant"
+ },
+ {
+   "FIELD1": "Car Salesman"
+ },
+ {
+   "FIELD1": "Car Valet"
+ },
+ {
+   "FIELD1": "Car Wash Attendant"
+ },
+ {
+   "FIELD1": "Care Assistant"
+ },
+ {
+   "FIELD1": "Care Manager"
+ },
+ {
+   "FIELD1": "Careers Advisor"
+ },
+ {
+   "FIELD1": "Careers Officer"
+ },
+ {
+   "FIELD1": "Caretaker"
+ },
+ {
+   "FIELD1": "Cargo Operator"
+ },
+ {
+   "FIELD1": "Carpenter"
+ },
+ {
+   "FIELD1": "Carpet Cleaner"
+ },
+ {
+   "FIELD1": "Carpet Fitter"
+ },
+ {
+   "FIELD1": "Carpet Retailer"
+ },
+ {
+   "FIELD1": "Carphone Fitter"
+ },
+ {
+   "FIELD1": "Cartographer"
+ },
+ {
+   "FIELD1": "Cartoonist"
+ },
+ {
+   "FIELD1": "Cashier"
+ },
+ {
+   "FIELD1": "Casual Worker"
+ },
+ {
+   "FIELD1": "Caterer"
+ },
+ {
+   "FIELD1": "Catering Consultant"
+ },
+ {
+   "FIELD1": "Catering Manager"
+ },
+ {
+   "FIELD1": "Catering Staff"
+ },
+ {
+   "FIELD1": "Caulker"
+ },
+ {
+   "FIELD1": "Ceiling Contractor"
+ },
+ {
+   "FIELD1": "Ceiling Fixer"
+ },
+ {
+   "FIELD1": "Cellarman"
+ },
+ {
+   "FIELD1": "Chambermaid"
+ },
+ {
+   "FIELD1": "Chandler"
+ },
+ {
+   "FIELD1": "Chaplain"
+ },
+ {
+   "FIELD1": "Charge Hand"
+ },
+ {
+   "FIELD1": "Charity Worker"
+ },
+ {
+   "FIELD1": "Chartered"
+ },
+ {
+   "FIELD1": "Chartered Accountant"
+ },
+ {
+   "FIELD1": "Chauffeur"
+ },
+ {
+   "FIELD1": "Chef"
+ },
+ {
+   "FIELD1": "Chemist"
+ },
+ {
+   "FIELD1": "Chicken Chaser"
+ },
+ {
+   "FIELD1": "Child Minder"
+ },
+ {
+   "FIELD1": "Childminder"
+ },
+ {
+   "FIELD1": "Chimney Sweep"
+ },
+ {
+   "FIELD1": "China Restorer"
+ },
+ {
+   "FIELD1": "Chiropodist"
+ },
+ {
+   "FIELD1": "Chiropractor"
+ },
+ {
+   "FIELD1": "Choreographer"
+ },
+ {
+   "FIELD1": "Church Officer"
+ },
+ {
+   "FIELD1": "Church Warden"
+ },
+ {
+   "FIELD1": "Cinema Manager"
+ },
+ {
+   "FIELD1": "Circus Proprietor"
+ },
+ {
+   "FIELD1": "Circus Worker"
+ },
+ {
+   "FIELD1": "Civil Engineer"
+ },
+ {
+   "FIELD1": "Civil Servant"
+ },
+ {
+   "FIELD1": "Claims Adjustor"
+ },
+ {
+   "FIELD1": "Claims Assessor"
+ },
+ {
+   "FIELD1": "Claims Manager"
+ },
+ {
+   "FIELD1": "Clairvoyant"
+ },
+ {
+   "FIELD1": "Classroom Aide"
+ },
+ {
+   "FIELD1": "Cleaner"
+ },
+ {
+   "FIELD1": "Clergyman"
+ },
+ {
+   "FIELD1": "Cleric"
+ },
+ {
+   "FIELD1": "Clerk"
+ },
+ {
+   "FIELD1": "Commissioned"
+ },
+ {
+   "FIELD1": "Consultant"
+ },
+ {
+   "FIELD1": "Coroner"
+ },
+ {
+   "FIELD1": "Councillor"
+ },
+ {
+   "FIELD1": "Counsellor"
+ },
+ {
+   "FIELD1": "Dealer"
+ },
+ {
+   "FIELD1": "Decorator"
+ },
+ {
+   "FIELD1": "Delivery Driver"
+ },
+ {
+   "FIELD1": "Doctor"
+ },
+ {
+   "FIELD1": "Driver"
+ },
+ {
+   "FIELD1": "Economist"
+ },
+ {
+   "FIELD1": "Editor"
+ },
+ {
+   "FIELD1": "Employee"
+ },
+ {
+   "FIELD1": "Employment"
+ },
+ {
+   "FIELD1": "Engineer"
+ },
+ {
+   "FIELD1": "English Teacher"
+ },
+ {
+   "FIELD1": "Entertainer"
+ },
+ {
+   "FIELD1": "Envoy"
+ },
+ {
+   "FIELD1": "Executive"
+ },
+ {
+   "FIELD1": "Farmer"
+ },
+ {
+   "FIELD1": "Fireman"
+ },
+ {
+   "FIELD1": "Floor Layer"
+ },
+ {
+   "FIELD1": "Floor Manager"
+ },
+ {
+   "FIELD1": "Florist"
+ },
+ {
+   "FIELD1": "Flour Miller"
+ },
+ {
+   "FIELD1": "Flower Arranger"
+ },
+ {
+   "FIELD1": "Flying Instructor"
+ },
+ {
+   "FIELD1": "Foam Convertor"
+ },
+ {
+   "FIELD1": "Food Processor"
+ },
+ {
+   "FIELD1": "Footballer"
+ },
+ {
+   "FIELD1": "Foreman"
+ },
+ {
+   "FIELD1": "Forensic Scientist"
+ },
+ {
+   "FIELD1": "Forest Ranger"
+ },
+ {
+   "FIELD1": "Forester"
+ },
+ {
+   "FIELD1": "Fork Lift Truck Driver"
+ },
+ {
+   "FIELD1": "Forwarding Agent"
+ },
+ {
+   "FIELD1": "Foster Parent"
+ },
+ {
+   "FIELD1": "Foundry Worker"
+ },
+ {
+   "FIELD1": "Fraud Investigator"
+ },
+ {
+   "FIELD1": "French Polisher"
+ },
+ {
+   "FIELD1": "Fruiterer"
+ },
+ {
+   "FIELD1": "Fuel Merchant"
+ },
+ {
+   "FIELD1": "Fund Raiser"
+ },
+ {
+   "FIELD1": "Funeral Director"
+ },
+ {
+   "FIELD1": "Funeral Furnisher"
+ },
+ {
+   "FIELD1": "Furnace Man"
+ },
+ {
+   "FIELD1": "Furniture Dealer"
+ },
+ {
+   "FIELD1": "Furniture Remover"
+ },
+ {
+   "FIELD1": "Furniture Restorer"
+ },
+ {
+   "FIELD1": "Furrier"
+ },
+ {
+   "FIELD1": "Gallery Owner"
+ },
+ {
+   "FIELD1": "Gambler"
+ },
+ {
+   "FIELD1": "Gamekeeper"
+ },
+ {
+   "FIELD1": "Gaming Board Inspector"
+ },
+ {
+   "FIELD1": "Gaming Club Manager"
+ },
+ {
+   "FIELD1": "Gaming Club Proprietor"
+ },
+ {
+   "FIELD1": "Garage Attendant"
+ },
+ {
+   "FIELD1": "Garage Foreman"
+ },
+ {
+   "FIELD1": "Garage Manager"
+ },
+ {
+   "FIELD1": "Garda"
+ },
+ {
+   "FIELD1": "Garden Designer"
+ },
+ {
+   "FIELD1": "Gardener"
+ },
+ {
+   "FIELD1": "Gas Fitter"
+ },
+ {
+   "FIELD1": "Gas Mechanic"
+ },
+ {
+   "FIELD1": "Gas Technician"
+ },
+ {
+   "FIELD1": "Gate Keeper"
+ },
+ {
+   "FIELD1": "Genealogist"
+ },
+ {
+   "FIELD1": "General Practitioner"
+ },
+ {
+   "FIELD1": "Geologist"
+ },
+ {
+   "FIELD1": "Geophysicist"
+ },
+ {
+   "FIELD1": "Gilder"
+ },
+ {
+   "FIELD1": "Glass Worker"
+ },
+ {
+   "FIELD1": "Glazier"
+ },
+ {
+   "FIELD1": "Goldsmith"
+ },
+ {
+   "FIELD1": "Golf Caddy"
+ },
+ {
+   "FIELD1": "Golf Club Professional"
+ },
+ {
+   "FIELD1": "Golfer"
+ },
+ {
+   "FIELD1": "Goods Handler"
+ },
+ {
+   "FIELD1": "Governor"
+ },
+ {
+   "FIELD1": "Granite Technician"
+ },
+ {
+   "FIELD1": "Graphic Designer"
+ },
+ {
+   "FIELD1": "Graphologist"
+ },
+ {
+   "FIELD1": "Grave Digger"
+ },
+ {
+   "FIELD1": "Gravel Merchant"
+ },
+ {
+   "FIELD1": "Green Keeper"
+ },
+ {
+   "FIELD1": "Greengrocer"
+ },
+ {
+   "FIELD1": "Grocer"
+ },
+ {
+   "FIELD1": "Groom"
+ },
+ {
+   "FIELD1": "Ground Worker"
+ },
+ {
+   "FIELD1": "Groundsman"
+ },
+ {
+   "FIELD1": "Guest House Owner"
+ },
+ {
+   "FIELD1": "Guest House Proprietor"
+ },
+ {
+   "FIELD1": "Gun Smith"
+ },
+ {
+   "FIELD1": "Gynaecologist"
+ },
+ {
+   "FIELD1": "HGV Driver"
+ },
+ {
+   "FIELD1": "HGV Mechanic"
+ },
+ {
+   "FIELD1": "Hairdresser"
+ },
+ {
+   "FIELD1": "Handyman"
+ },
+ {
+   "FIELD1": "Hardware Dealer"
+ },
+ {
+   "FIELD1": "Haulage Contractor"
+ },
+ {
+   "FIELD1": "Hawker"
+ },
+ {
+   "FIELD1": "Health Advisor"
+ },
+ {
+   "FIELD1": "Health And Safety"
+ },
+ {
+   "FIELD1": "Health Care Assistant"
+ },
+ {
+   "FIELD1": "Health Consultant"
+ },
+ {
+   "FIELD1": "Health Nurse"
+ },
+ {
+   "FIELD1": "Health Planner"
+ },
+ {
+   "FIELD1": "Health Service"
+ },
+ {
+   "FIELD1": "Health Therapist"
+ },
+ {
+   "FIELD1": "Health Visitor"
+ },
+ {
+   "FIELD1": "Hearing Therapist"
+ },
+ {
+   "FIELD1": "Heating Engineer"
+ },
+ {
+   "FIELD1": "Herbalist"
+ },
+ {
+   "FIELD1": "Highway Inspector"
+ },
+ {
+   "FIELD1": "Hire Car Driver"
+ },
+ {
+   "FIELD1": "Historian"
+ },
+ {
+   "FIELD1": "History Teacher"
+ },
+ {
+   "FIELD1": "Hod Carrier"
+ },
+ {
+   "FIELD1": "Home Economist"
+ },
+ {
+   "FIELD1": "Home Help"
+ },
+ {
+   "FIELD1": "Homecare Manager"
+ },
+ {
+   "FIELD1": "Homeopath"
+ },
+ {
+   "FIELD1": "Homeworker"
+ },
+ {
+   "FIELD1": "Hop Merchant"
+ },
+ {
+   "FIELD1": "Horse Breeder"
+ },
+ {
+   "FIELD1": "Horse Dealer"
+ },
+ {
+   "FIELD1": "Horse Riding Instructor"
+ },
+ {
+   "FIELD1": "Horse Trader"
+ },
+ {
+   "FIELD1": "Horse Trainer"
+ },
+ {
+   "FIELD1": "Horticultural Consultant"
+ },
+ {
+   "FIELD1": "Horticulturalist"
+ },
+ {
+   "FIELD1": "Hosiery Mechanic"
+ },
+ {
+   "FIELD1": "Hosiery Worker"
+ },
+ {
+   "FIELD1": "Hospital Consultant"
+ },
+ {
+   "FIELD1": "Hospital Doctor"
+ },
+ {
+   "FIELD1": "Hospital Manager"
+ },
+ {
+   "FIELD1": "Hospital Orderly"
+ },
+ {
+   "FIELD1": "Hospital Technician"
+ },
+ {
+   "FIELD1": "Hospital Warden"
+ },
+ {
+   "FIELD1": "Hospital Worker"
+ },
+ {
+   "FIELD1": "Hostess"
+ },
+ {
+   "FIELD1": "Hot Foil Printer"
+ },
+ {
+   "FIELD1": "Hotel Consultant"
+ },
+ {
+   "FIELD1": "Hotel Worker"
+ },
+ {
+   "FIELD1": "Hotelier"
+ },
+ {
+   "FIELD1": "Househusband"
+ },
+ {
+   "FIELD1": "Housekeeper"
+ },
+ {
+   "FIELD1": "Housewife"
+ },
+ {
+   "FIELD1": "Housing Assistant"
+ },
+ {
+   "FIELD1": "Housing Officer"
+ },
+ {
+   "FIELD1": "Housing Supervisor"
+ },
+ {
+   "FIELD1": "Hygienist"
+ },
+ {
+   "FIELD1": "Hypnotherapist"
+ },
+ {
+   "FIELD1": "Hypnotist"
+ },
+ {
+   "FIELD1": "IT Consultant"
+ },
+ {
+   "FIELD1": "IT Manager"
+ },
+ {
+   "FIELD1": "IT Trainer"
+ },
+ {
+   "FIELD1": "Ice Cream Vendor"
+ },
+ {
+   "FIELD1": "Illustrator"
+ },
+ {
+   "FIELD1": "Immigration Officer"
+ },
+ {
+   "FIELD1": "Import Consultant"
+ },
+ {
+   "FIELD1": "Importer"
+ },
+ {
+   "FIELD1": "Independent Means"
+ },
+ {
+   "FIELD1": "Induction Moulder"
+ },
+ {
+   "FIELD1": "Industrial Chemist"
+ },
+ {
+   "FIELD1": "Industrial Consultant"
+ },
+ {
+   "FIELD1": "Injection Moulder"
+ },
+ {
+   "FIELD1": "Inspector"
+ },
+ {
+   "FIELD1": "Instructor"
+ },
+ {
+   "FIELD1": "Instrument Engineer"
+ },
+ {
+   "FIELD1": "Instrument Maker"
+ },
+ {
+   "FIELD1": "Instrument Supervisor"
+ },
+ {
+   "FIELD1": "Instrument Technician"
+ },
+ {
+   "FIELD1": "Insurance Agent"
+ },
+ {
+   "FIELD1": "Insurance Assessor"
+ },
+ {
+   "FIELD1": "Insurance Broker"
+ },
+ {
+   "FIELD1": "Insurance Consultant"
+ },
+ {
+   "FIELD1": "Insurance Inspector"
+ },
+ {
+   "FIELD1": "Insurance Staff"
+ },
+ {
+   "FIELD1": "Interior Decorator"
+ },
+ {
+   "FIELD1": "Interior Designer"
+ },
+ {
+   "FIELD1": "Interpreter"
+ },
+ {
+   "FIELD1": "Interviewer"
+ },
+ {
+   "FIELD1": "Inventor"
+ },
+ {
+   "FIELD1": "Investigator"
+ },
+ {
+   "FIELD1": "Investment Advisor"
+ },
+ {
+   "FIELD1": "Investment Banker"
+ },
+ {
+   "FIELD1": "Investment Manager"
+ },
+ {
+   "FIELD1": "Investment Strategist"
+ },
+ {
+   "FIELD1": "Ironmonger"
+ },
+ {
+   "FIELD1": "Janitor"
+ },
+ {
+   "FIELD1": "Jazz Composer"
+ },
+ {
+   "FIELD1": "Jeweller"
+ },
+ {
+   "FIELD1": "Jewellery"
+ },
+ {
+   "FIELD1": "Jockey"
+ },
+ {
+   "FIELD1": "Joiner"
+ },
+ {
+   "FIELD1": "Joinery Consultant"
+ },
+ {
+   "FIELD1": "Journalist"
+ },
+ {
+   "FIELD1": "Judge"
+ },
+ {
+   "FIELD1": "Keep Fit Instructor"
+ },
+ {
+   "FIELD1": "Kennel Hand"
+ },
+ {
+   "FIELD1": "Kitchen Worker"
+ },
+ {
+   "FIELD1": "Knitter"
+ },
+ {
+   "FIELD1": "Labelling Operator"
+ },
+ {
+   "FIELD1": "Laboratory Analyst"
+ },
+ {
+   "FIELD1": "Labourer"
+ },
+ {
+   "FIELD1": "Laminator"
+ },
+ {
+   "FIELD1": "Lampshade Maker"
+ },
+ {
+   "FIELD1": "Land Agent"
+ },
+ {
+   "FIELD1": "Land Surveyor"
+ },
+ {
+   "FIELD1": "Landlady"
+ },
+ {
+   "FIELD1": "Landlord"
+ },
+ {
+   "FIELD1": "Landowner"
+ },
+ {
+   "FIELD1": "Landworker"
+ },
+ {
+   "FIELD1": "Lathe Operator"
+ },
+ {
+   "FIELD1": "Laundry Staff"
+ },
+ {
+   "FIELD1": "Laundry Worker"
+ },
+ {
+   "FIELD1": "Lavatory Attendant"
+ },
+ {
+   "FIELD1": "Law Clerk"
+ },
+ {
+   "FIELD1": "Lawn Mower"
+ },
+ {
+   "FIELD1": "Lawyer"
+ },
+ {
+   "FIELD1": "Leaflet Distributor"
+ },
+ {
+   "FIELD1": "Leather Worker"
+ },
+ {
+   "FIELD1": "Lecturer"
+ },
+ {
+   "FIELD1": "Ledger Clerk"
+ },
+ {
+   "FIELD1": "Legal Advisor"
+ },
+ {
+   "FIELD1": "Legal Assistant"
+ },
+ {
+   "FIELD1": "Legal Executive"
+ },
+ {
+   "FIELD1": "Legal Secretary"
+ },
+ {
+   "FIELD1": "Letting Agent"
+ },
+ {
+   "FIELD1": "Liaison Officer"
+ },
+ {
+   "FIELD1": "Librarian"
+ },
+ {
+   "FIELD1": "Library Manager"
+ },
+ {
+   "FIELD1": "Licensed Premises"
+ },
+ {
+   "FIELD1": "Licensee"
+ },
+ {
+   "FIELD1": "Licensing"
+ },
+ {
+   "FIELD1": "Lifeguard"
+ },
+ {
+   "FIELD1": "Lift Attendant"
+ },
+ {
+   "FIELD1": "Lift Engineer"
+ },
+ {
+   "FIELD1": "Lighterman"
+ },
+ {
+   "FIELD1": "Lighthouse Keeper"
+ },
+ {
+   "FIELD1": "Lighting Designer"
+ },
+ {
+   "FIELD1": "Lighting Technician"
+ },
+ {
+   "FIELD1": "Lime Kiln Attendant"
+ },
+ {
+   "FIELD1": "Line Manager"
+ },
+ {
+   "FIELD1": "Line Worker"
+ },
+ {
+   "FIELD1": "Lineman"
+ },
+ {
+   "FIELD1": "Linguist"
+ },
+ {
+   "FIELD1": "Literary Agent"
+ },
+ {
+   "FIELD1": "Literary Editor"
+ },
+ {
+   "FIELD1": "Lithographer"
+ },
+ {
+   "FIELD1": "Litigation Manager"
+ },
+ {
+   "FIELD1": "Loans Manager"
+ },
+ {
+   "FIELD1": "Local Government"
+ },
+ {
+   "FIELD1": "Lock Keeper"
+ },
+ {
+   "FIELD1": "Locksmith"
+ },
+ {
+   "FIELD1": "Locum Pharmacist"
+ },
+ {
+   "FIELD1": "Log Merchant"
+ },
+ {
+   "FIELD1": "Lorry Driver"
+ },
+ {
+   "FIELD1": "Loss Adjustor"
+ },
+ {
+   "FIELD1": "Loss Assessor"
+ },
+ {
+   "FIELD1": "Lumberjack"
+ },
+ {
+   "FIELD1": "Machine Fitters"
+ },
+ {
+   "FIELD1": "Machine Minder"
+ },
+ {
+   "FIELD1": "Machine Operator"
+ },
+ {
+   "FIELD1": "Machine Setter"
+ },
+ {
+   "FIELD1": "Machine Tool"
+ },
+ {
+   "FIELD1": "Machine Tool Fitter"
+ },
+ {
+   "FIELD1": "Machinist"
+ },
+ {
+   "FIELD1": "Magician"
+ },
+ {
+   "FIELD1": "Magistrate"
+ },
+ {
+   "FIELD1": "Magistrates Clerk"
+ },
+ {
+   "FIELD1": "Maid"
+ },
+ {
+   "FIELD1": "Maintenance Fitter"
+ },
+ {
+   "FIELD1": "Make Up Artist"
+ },
+ {
+   "FIELD1": "Manicurist"
+ },
+ {
+   "FIELD1": "Manufacturing"
+ },
+ {
+   "FIELD1": "Map Mounter"
+ },
+ {
+   "FIELD1": "Marble Finisher"
+ },
+ {
+   "FIELD1": "Marble Mason"
+ },
+ {
+   "FIELD1": "Marine Broker"
+ },
+ {
+   "FIELD1": "Marine Consultant"
+ },
+ {
+   "FIELD1": "Marine Electrician"
+ },
+ {
+   "FIELD1": "Marine Engineer"
+ },
+ {
+   "FIELD1": "Marine Geologist"
+ },
+ {
+   "FIELD1": "Marine Pilot"
+ },
+ {
+   "FIELD1": "Marine Surveyor"
+ },
+ {
+   "FIELD1": "Market Gardener"
+ },
+ {
+   "FIELD1": "Market Research"
+ },
+ {
+   "FIELD1": "Market Researcher"
+ },
+ {
+   "FIELD1": "Market Trader"
+ },
+ {
+   "FIELD1": "Marketing Agent"
+ },
+ {
+   "FIELD1": "Marketing Assistant"
+ },
+ {
+   "FIELD1": "Marketing Coordinator"
+ },
+ {
+   "FIELD1": "Marketing Director"
+ },
+ {
+   "FIELD1": "Marketing Manager"
+ },
+ {
+   "FIELD1": "Marquee Erector"
+ },
+ {
+   "FIELD1": "Massage Therapist"
+ },
+ {
+   "FIELD1": "Masseur"
+ },
+ {
+   "FIELD1": "Masseuse"
+ },
+ {
+   "FIELD1": "Master Mariner"
+ },
+ {
+   "FIELD1": "Materials Controller"
+ },
+ {
+   "FIELD1": "Materials Manager"
+ },
+ {
+   "FIELD1": "Mathematician"
+ },
+ {
+   "FIELD1": "Maths Teacher"
+ },
+ {
+   "FIELD1": "Matron"
+ },
+ {
+   "FIELD1": "Mattress Maker"
+ },
+ {
+   "FIELD1": "Meat Inspector"
+ },
+ {
+   "FIELD1": "Meat Wholesaler"
+ },
+ {
+   "FIELD1": "Mechanic"
+ },
+ {
+   "FIELD1": "Medal Dealer"
+ },
+ {
+   "FIELD1": "Medical Advisor"
+ },
+ {
+   "FIELD1": "Medical Assistant"
+ },
+ {
+   "FIELD1": "Medical Consultant"
+ },
+ {
+   "FIELD1": "Medical Officer"
+ },
+ {
+   "FIELD1": "Medical Physicist"
+ },
+ {
+   "FIELD1": "Medical Practitioner"
+ },
+ {
+   "FIELD1": "Medical Researcher"
+ },
+ {
+   "FIELD1": "Medical Secretary"
+ },
+ {
+   "FIELD1": "Medical Student"
+ },
+ {
+   "FIELD1": "Medical Supplier"
+ },
+ {
+   "FIELD1": "Medical Technician"
+ },
+ {
+   "FIELD1": "Merchandiser"
+ },
+ {
+   "FIELD1": "Merchant"
+ },
+ {
+   "FIELD1": "Merchant Banker"
+ },
+ {
+   "FIELD1": "Merchant Seaman"
+ },
+ {
+   "FIELD1": "Messenger"
+ },
+ {
+   "FIELD1": "Metal Dealer"
+ },
+ {
+   "FIELD1": "Metal Engineer"
+ },
+ {
+   "FIELD1": "Metal Polisher"
+ },
+ {
+   "FIELD1": "Metal Worker"
+ },
+ {
+   "FIELD1": "Metallurgist"
+ },
+ {
+   "FIELD1": "Meteorologist"
+ },
+ {
+   "FIELD1": "Meter Reader"
+ },
+ {
+   "FIELD1": "Microbiologist"
+ },
+ {
+   "FIELD1": "Midwife"
+ },
+ {
+   "FIELD1": "Military Leader"
+ },
+ {
+   "FIELD1": "Milklady"
+ },
+ {
+   "FIELD1": "Milkman"
+ },
+ {
+   "FIELD1": "Mill Operator"
+ },
+ {
+   "FIELD1": "Mill Worker"
+ },
+ {
+   "FIELD1": "Miller"
+ },
+ {
+   "FIELD1": "Milliner"
+ },
+ {
+   "FIELD1": "Millwright"
+ },
+ {
+   "FIELD1": "Miner"
+ },
+ {
+   "FIELD1": "Mineralologist"
+ },
+ {
+   "FIELD1": "Minibus Driver"
+ },
+ {
+   "FIELD1": "Minicab Driver"
+ },
+ {
+   "FIELD1": "Mining Consultant"
+ },
+ {
+   "FIELD1": "Mining Engineer"
+ },
+ {
+   "FIELD1": "Money Broker"
+ },
+ {
+   "FIELD1": "Moneylender"
+ },
+ {
+   "FIELD1": "Mooring Contractor"
+ },
+ {
+   "FIELD1": "Mortgage Broker"
+ },
+ {
+   "FIELD1": "Mortician"
+ },
+ {
+   "FIELD1": "Motor Dealer"
+ },
+ {
+   "FIELD1": "Motor Engineer"
+ },
+ {
+   "FIELD1": "Motor Fitter"
+ },
+ {
+   "FIELD1": "Motor Mechanic"
+ },
+ {
+   "FIELD1": "Motor Racing"
+ },
+ {
+   "FIELD1": "Motor Trader"
+ },
+ {
+   "FIELD1": "Museum Assistant"
+ },
+ {
+   "FIELD1": "Museum Attendant"
+ },
+ {
+   "FIELD1": "Music Teacher"
+ },
+ {
+   "FIELD1": "Musician"
+ },
+ {
+   "FIELD1": "Nanny"
+ },
+ {
+   "FIELD1": "Navigator"
+ },
+ {
+   "FIELD1": "Negotiator"
+ },
+ {
+   "FIELD1": "Neurologist"
+ },
+ {
+   "FIELD1": "Newsagent"
+ },
+ {
+   "FIELD1": "Night Porter"
+ },
+ {
+   "FIELD1": "Night Watchman"
+ },
+ {
+   "FIELD1": "Nuclear Scientist"
+ },
+ {
+   "FIELD1": "Nun"
+ },
+ {
+   "FIELD1": "Nurse"
+ },
+ {
+   "FIELD1": "Nursery Assistant"
+ },
+ {
+   "FIELD1": "Nursery Nurse"
+ },
+ {
+   "FIELD1": "Nursery Worker"
+ },
+ {
+   "FIELD1": "Nurseryman"
+ },
+ {
+   "FIELD1": "Nursing Assistant"
+ },
+ {
+   "FIELD1": "Nursing Auxiliary"
+ },
+ {
+   "FIELD1": "Nursing Manager"
+ },
+ {
+   "FIELD1": "Nursing Sister"
+ },
+ {
+   "FIELD1": "Nutritionist"
+ },
+ {
+   "FIELD1": "Off Shore"
+ },
+ {
+   "FIELD1": "Office Manager"
+ },
+ {
+   "FIELD1": "Office Worker"
+ },
+ {
+   "FIELD1": "Oil Broker"
+ },
+ {
+   "FIELD1": "Oil Rig Crew"
+ },
+ {
+   "FIELD1": "Opera Singer"
+ },
+ {
+   "FIELD1": "Operations"
+ },
+ {
+   "FIELD1": "Operative"
+ },
+ {
+   "FIELD1": "Operator"
+ },
+ {
+   "FIELD1": "Optical"
+ },
+ {
+   "FIELD1": "Optical Advisor"
+ },
+ {
+   "FIELD1": "Optical Assistant"
+ },
+ {
+   "FIELD1": "Optician"
+ },
+ {
+   "FIELD1": "Optometrist"
+ },
+ {
+   "FIELD1": "Orchestral"
+ },
+ {
+   "FIELD1": "Organiser"
+ },
+ {
+   "FIELD1": "Organist"
+ },
+ {
+   "FIELD1": "Ornamental"
+ },
+ {
+   "FIELD1": "Ornithologist"
+ },
+ {
+   "FIELD1": "Orthopaedic"
+ },
+ {
+   "FIELD1": "Orthoptist"
+ },
+ {
+   "FIELD1": "Osteopath"
+ },
+ {
+   "FIELD1": "Outdoor Pursuits"
+ },
+ {
+   "FIELD1": "Outreach Worker"
+ },
+ {
+   "FIELD1": "Packaging"
+ },
+ {
+   "FIELD1": "Packer"
+ },
+ {
+   "FIELD1": "Paediatrician"
+ },
+ {
+   "FIELD1": "Paint Consultant"
+ },
+ {
+   "FIELD1": "Painter"
+ },
+ {
+   "FIELD1": "Palaeobotanist"
+ },
+ {
+   "FIELD1": "Palaeontologist"
+ },
+ {
+   "FIELD1": "Pallet Maker"
+ },
+ {
+   "FIELD1": "Panel Beater"
+ },
+ {
+   "FIELD1": "Paramedic"
+ },
+ {
+   "FIELD1": "Park Attendant"
+ },
+ {
+   "FIELD1": "Park Keeper"
+ },
+ {
+   "FIELD1": "Park Ranger"
+ },
+ {
+   "FIELD1": "Partition Erector"
+ },
+ {
+   "FIELD1": "Parts Man"
+ },
+ {
+   "FIELD1": "Parts Manager"
+ },
+ {
+   "FIELD1": "Parts Supervisor"
+ },
+ {
+   "FIELD1": "Party Planner"
+ },
+ {
+   "FIELD1": "Pasteuriser"
+ },
+ {
+   "FIELD1": "Pastry Chef"
+ },
+ {
+   "FIELD1": "Patent Agent"
+ },
+ {
+   "FIELD1": "Patent Attorney"
+ },
+ {
+   "FIELD1": "Pathologist"
+ },
+ {
+   "FIELD1": "Patrolman"
+ },
+ {
+   "FIELD1": "Pattern Cutter"
+ },
+ {
+   "FIELD1": "Pattern Maker"
+ },
+ {
+   "FIELD1": "Pattern Weaver"
+ },
+ {
+   "FIELD1": "Pawnbroker"
+ },
+ {
+   "FIELD1": "Payroll Assistant"
+ },
+ {
+   "FIELD1": "Payroll Clerk"
+ },
+ {
+   "FIELD1": "Payroll Manager"
+ },
+ {
+   "FIELD1": "Payroll Supervisor"
+ },
+ {
+   "FIELD1": "Personnel Officer"
+ },
+ {
+   "FIELD1": "Pest Controller"
+ },
+ {
+   "FIELD1": "Pet Minder"
+ },
+ {
+   "FIELD1": "Pharmacist"
+ },
+ {
+   "FIELD1": "Philatelist"
+ },
+ {
+   "FIELD1": "Photographer"
+ },
+ {
+   "FIELD1": "Physician"
+ },
+ {
+   "FIELD1": "Physicist"
+ },
+ {
+   "FIELD1": "Physiologist"
+ },
+ {
+   "FIELD1": "Physiotherapist"
+ },
+ {
+   "FIELD1": "Piano Teacher"
+ },
+ {
+   "FIELD1": "Piano Tuner"
+ },
+ {
+   "FIELD1": "Picture Editor"
+ },
+ {
+   "FIELD1": "Picture Framer"
+ },
+ {
+   "FIELD1": "Picture Reseacher"
+ },
+ {
+   "FIELD1": "Pig Man"
+ },
+ {
+   "FIELD1": "Pig Manager"
+ },
+ {
+   "FIELD1": "Pilot"
+ },
+ {
+   "FIELD1": "Pipe Fitter"
+ },
+ {
+   "FIELD1": "Pipe Inspector"
+ },
+ {
+   "FIELD1": "Pipe Insulator"
+ },
+ {
+   "FIELD1": "Pipe Layer"
+ },
+ {
+   "FIELD1": "Planning Engineer"
+ },
+ {
+   "FIELD1": "Planning Manager"
+ },
+ {
+   "FIELD1": "Planning Officer"
+ },
+ {
+   "FIELD1": "Planning Technician"
+ },
+ {
+   "FIELD1": "Plant Attendant"
+ },
+ {
+   "FIELD1": "Plant Driver"
+ },
+ {
+   "FIELD1": "Plant Engineer"
+ },
+ {
+   "FIELD1": "Plant Fitter"
+ },
+ {
+   "FIELD1": "Plant Manager"
+ },
+ {
+   "FIELD1": "Plant Operator"
+ },
+ {
+   "FIELD1": "Plasterer"
+ },
+ {
+   "FIELD1": "Plastics Consultant"
+ },
+ {
+   "FIELD1": "Plastics Engineer"
+ },
+ {
+   "FIELD1": "Plate Layer"
+ },
+ {
+   "FIELD1": "Plater"
+ },
+ {
+   "FIELD1": "Playgroup Assistant"
+ },
+ {
+   "FIELD1": "Playgroup Leader"
+ },
+ {
+   "FIELD1": "Plumber"
+ },
+ {
+   "FIELD1": "Podiatrist"
+ },
+ {
+   "FIELD1": "Police Officer"
+ },
+ {
+   "FIELD1": "Polisher"
+ },
+ {
+   "FIELD1": "Pool Attendant"
+ },
+ {
+   "FIELD1": "Pools Collector"
+ },
+ {
+   "FIELD1": "Porter"
+ },
+ {
+   "FIELD1": "Portfolio Manager"
+ },
+ {
+   "FIELD1": "Post Sorter"
+ },
+ {
+   "FIELD1": "Postman"
+ },
+ {
+   "FIELD1": "Postmaster"
+ },
+ {
+   "FIELD1": "Postwoman"
+ },
+ {
+   "FIELD1": "Potter"
+ },
+ {
+   "FIELD1": "Practice Manager"
+ },
+ {
+   "FIELD1": "Preacher"
+ },
+ {
+   "FIELD1": "Precision Engineer"
+ },
+ {
+   "FIELD1": "Premises"
+ },
+ {
+   "FIELD1": "Premises Security"
+ },
+ {
+   "FIELD1": "Press Officer"
+ },
+ {
+   "FIELD1": "Press Operator"
+ },
+ {
+   "FIELD1": "Press Setter"
+ },
+ {
+   "FIELD1": "Presser"
+ },
+ {
+   "FIELD1": "Priest"
+ },
+ {
+   "FIELD1": "Print Finisher"
+ },
+ {
+   "FIELD1": "Printer"
+ },
+ {
+   "FIELD1": "Prison Chaplain"
+ },
+ {
+   "FIELD1": "Prison Officer"
+ },
+ {
+   "FIELD1": "Private Investigator"
+ },
+ {
+   "FIELD1": "Probation Officer"
+ },
+ {
+   "FIELD1": "Probation Worker"
+ },
+ {
+   "FIELD1": "Procurator Fiscal"
+ },
+ {
+   "FIELD1": "Produce Supervisor"
+ },
+ {
+   "FIELD1": "Producer"
+ },
+ {
+   "FIELD1": "Product Installer"
+ },
+ {
+   "FIELD1": "Product Manager"
+ },
+ {
+   "FIELD1": "Production Engineer"
+ },
+ {
+   "FIELD1": "Production Hand"
+ },
+ {
+   "FIELD1": "Production Manager"
+ },
+ {
+   "FIELD1": "Production Planner"
+ },
+ {
+   "FIELD1": "Professional Boxer"
+ },
+ {
+   "FIELD1": "Professional Racing"
+ },
+ {
+   "FIELD1": "Professional Wrestler"
+ },
+ {
+   "FIELD1": "Progress Chaser"
+ },
+ {
+   "FIELD1": "Progress Clerk"
+ },
+ {
+   "FIELD1": "Project Co-ordinator"
+ },
+ {
+   "FIELD1": "Project Engineer"
+ },
+ {
+   "FIELD1": "Project Leader"
+ },
+ {
+   "FIELD1": "Project Manager"
+ },
+ {
+   "FIELD1": "Project Worker"
+ },
+ {
+   "FIELD1": "Projectionist"
+ },
+ {
+   "FIELD1": "Promoter"
+ },
+ {
+   "FIELD1": "Proof Reader"
+ },
+ {
+   "FIELD1": "Property Buyer"
+ },
+ {
+   "FIELD1": "Property Dealer"
+ },
+ {
+   "FIELD1": "Property Developer"
+ },
+ {
+   "FIELD1": "Property Manager"
+ },
+ {
+   "FIELD1": "Property Valuer"
+ },
+ {
+   "FIELD1": "Proprietor"
+ },
+ {
+   "FIELD1": "Psychiatrist"
+ },
+ {
+   "FIELD1": "Psychoanalyst"
+ },
+ {
+   "FIELD1": "Psychologist"
+ },
+ {
+   "FIELD1": "Psychotherapist"
+ },
+ {
+   "FIELD1": "Public House Manager"
+ },
+ {
+   "FIELD1": "Public Relations Of?cer"
+ },
+ {
+   "FIELD1": "Publican"
+ },
+ {
+   "FIELD1": "Publicity Manager"
+ },
+ {
+   "FIELD1": "Publisher"
+ },
+ {
+   "FIELD1": "Publishing Manager"
+ },
+ {
+   "FIELD1": "Purchase Clerk"
+ },
+ {
+   "FIELD1": "Purchase Ledger Clerk"
+ },
+ {
+   "FIELD1": "Purchasing Assistant"
+ },
+ {
+   "FIELD1": "Purchasing Manager"
+ },
+ {
+   "FIELD1": "Purser"
+ },
+ {
+   "FIELD1": "Quality Controller"
+ },
+ {
+   "FIELD1": "Quality Engineer"
+ },
+ {
+   "FIELD1": "Quality Inspector"
+ },
+ {
+   "FIELD1": "Quality Manager"
+ },
+ {
+   "FIELD1": "Quality Technician"
+ },
+ {
+   "FIELD1": "Quantity Surveyor"
+ },
+ {
+   "FIELD1": "Quarry Worker"
+ },
+ {
+   "FIELD1": "Racehorse Groom"
+ },
+ {
+   "FIELD1": "Racing Organiser"
+ },
+ {
+   "FIELD1": "Radio Controller"
+ },
+ {
+   "FIELD1": "Radio Director"
+ },
+ {
+   "FIELD1": "Radio Engineer"
+ },
+ {
+   "FIELD1": "Radio Operator"
+ },
+ {
+   "FIELD1": "Radio Presenter"
+ },
+ {
+   "FIELD1": "Radio Producer"
+ },
+ {
+   "FIELD1": "Radiographer"
+ },
+ {
+   "FIELD1": "Radiologist"
+ },
+ {
+   "FIELD1": "Rally Driver"
+ },
+ {
+   "FIELD1": "Receptionist"
+ },
+ {
+   "FIELD1": "Recorder"
+ },
+ {
+   "FIELD1": "Records Supervisor"
+ },
+ {
+   "FIELD1": "Recovery Vehicle Coordinator"
+ },
+ {
+   "FIELD1": "Recreational"
+ },
+ {
+   "FIELD1": "Recruitment Consultant"
+ },
+ {
+   "FIELD1": "Rector"
+ },
+ {
+   "FIELD1": "Reflexologist"
+ },
+ {
+   "FIELD1": "Refractory Engineer"
+ },
+ {
+   "FIELD1": "Refrigeration Engineer"
+ },
+ {
+   "FIELD1": "Refuse Collector"
+ },
+ {
+   "FIELD1": "Registrar"
+ },
+ {
+   "FIELD1": "Regulator"
+ },
+ {
+   "FIELD1": "Relocation Agent"
+ },
+ {
+   "FIELD1": "Remedial Therapist"
+ },
+ {
+   "FIELD1": "Rent Collector"
+ },
+ {
+   "FIELD1": "Rent Offcer"
+ },
+ {
+   "FIELD1": "Repair Man"
+ },
+ {
+   "FIELD1": "Repairer"
+ },
+ {
+   "FIELD1": "Reporter"
+ },
+ {
+   "FIELD1": "Representative"
+ },
+ {
+   "FIELD1": "Reprographic Assistant"
+ },
+ {
+   "FIELD1": "Research Analyst"
+ },
+ {
+   "FIELD1": "Research Consultant"
+ },
+ {
+   "FIELD1": "Research Director"
+ },
+ {
+   "FIELD1": "Research Scientist"
+ },
+ {
+   "FIELD1": "Research Technician"
+ },
+ {
+   "FIELD1": "Researcher"
+ },
+ {
+   "FIELD1": "Resin Caster"
+ },
+ {
+   "FIELD1": "Restaurant Manager"
+ },
+ {
+   "FIELD1": "Restaurateur"
+ },
+ {
+   "FIELD1": "Restorer"
+ },
+ {
+   "FIELD1": "Retired"
+ },
+ {
+   "FIELD1": "Revenue Clerk"
+ },
+ {
+   "FIELD1": "Revenue Officer"
+ },
+ {
+   "FIELD1": "Riding Instructor"
+ },
+ {
+   "FIELD1": "Rig Worker"
+ },
+ {
+   "FIELD1": "Rigger"
+ },
+ {
+   "FIELD1": "Riveter"
+ },
+ {
+   "FIELD1": "Road Safety Officer"
+ },
+ {
+   "FIELD1": "Road Sweeper"
+ },
+ {
+   "FIELD1": "Road Worker"
+ },
+ {
+   "FIELD1": "Roadworker"
+ },
+ {
+   "FIELD1": "Roof Tiler"
+ },
+ {
+   "FIELD1": "Roofer"
+ },
+ {
+   "FIELD1": "Rose Grower"
+ },
+ {
+   "FIELD1": "Royal Marine"
+ },
+ {
+   "FIELD1": "Rug Maker"
+ },
+ {
+   "FIELD1": "Saddler"
+ },
+ {
+   "FIELD1": "Safety Officer"
+ },
+ {
+   "FIELD1": "Sail Maker"
+ },
+ {
+   "FIELD1": "Sales Administrator"
+ },
+ {
+   "FIELD1": "Sales Assistant"
+ },
+ {
+   "FIELD1": "Sales Director"
+ },
+ {
+   "FIELD1": "Sales Engineer"
+ },
+ {
+   "FIELD1": "Sales Executive"
+ },
+ {
+   "FIELD1": "Sales Manager"
+ },
+ {
+   "FIELD1": "Sales Representative"
+ },
+ {
+   "FIELD1": "Sales Support"
+ },
+ {
+   "FIELD1": "Salesman"
+ },
+ {
+   "FIELD1": "Saleswoman"
+ },
+ {
+   "FIELD1": "Sand Blaster"
+ },
+ {
+   "FIELD1": "Saw Miller"
+ },
+ {
+   "FIELD1": "Scaffolder"
+ },
+ {
+   "FIELD1": "School Crossing"
+ },
+ {
+   "FIELD1": "School Inspector"
+ },
+ {
+   "FIELD1": "Scientific Officer"
+ },
+ {
+   "FIELD1": "Scientist"
+ },
+ {
+   "FIELD1": "Scrap Dealer"
+ },
+ {
+   "FIELD1": "Screen Printer"
+ },
+ {
+   "FIELD1": "Screen Writer"
+ },
+ {
+   "FIELD1": "Script Writer"
+ },
+ {
+   "FIELD1": "Sculptor"
+ },
+ {
+   "FIELD1": "Seaman"
+ },
+ {
+   "FIELD1": "Seamstress"
+ },
+ {
+   "FIELD1": "Secretary"
+ },
+ {
+   "FIELD1": "Security Consultant"
+ },
+ {
+   "FIELD1": "Security Controller"
+ },
+ {
+   "FIELD1": "Security Guard"
+ },
+ {
+   "FIELD1": "Security Officer"
+ },
+ {
+   "FIELD1": "Servant"
+ },
+ {
+   "FIELD1": "Service Engineer"
+ },
+ {
+   "FIELD1": "Service Manager"
+ },
+ {
+   "FIELD1": "Share Dealer"
+ },
+ {
+   "FIELD1": "Sheet Metal Worker"
+ },
+ {
+   "FIELD1": "Shelf Filler"
+ },
+ {
+   "FIELD1": "Shelter Warden"
+ },
+ {
+   "FIELD1": "Shepherd"
+ },
+ {
+   "FIELD1": "Sheriff"
+ },
+ {
+   "FIELD1": "Sheriff Clerk"
+ },
+ {
+   "FIELD1": "Sheriff Principal"
+ },
+ {
+   "FIELD1": "Shift Controller"
+ },
+ {
+   "FIELD1": "Ship Broker"
+ },
+ {
+   "FIELD1": "Ship Builder"
+ },
+ {
+   "FIELD1": "Shipping Clerk"
+ },
+ {
+   "FIELD1": "Shipping Officer"
+ },
+ {
+   "FIELD1": "Shipwright"
+ },
+ {
+   "FIELD1": "Shipyard Worker"
+ },
+ {
+   "FIELD1": "Shoe Maker"
+ },
+ {
+   "FIELD1": "Shoe Repairer"
+ },
+ {
+   "FIELD1": "Shooting Instructor"
+ },
+ {
+   "FIELD1": "Shop Assistant"
+ },
+ {
+   "FIELD1": "Shop Fitter"
+ },
+ {
+   "FIELD1": "Shop Keeper"
+ },
+ {
+   "FIELD1": "Shop Manager"
+ },
+ {
+   "FIELD1": "Shop Proprietor"
+ },
+ {
+   "FIELD1": "Shot Blaster"
+ },
+ {
+   "FIELD1": "Show Jumper"
+ },
+ {
+   "FIELD1": "Showman"
+ },
+ {
+   "FIELD1": "Shunter"
+ },
+ {
+   "FIELD1": "Sign Maker"
+ },
+ {
+   "FIELD1": "Signalman"
+ },
+ {
+   "FIELD1": "Signwriter"
+ },
+ {
+   "FIELD1": "Site Agent"
+ },
+ {
+   "FIELD1": "Site Engineer"
+ },
+ {
+   "FIELD1": "Skipper"
+ },
+ {
+   "FIELD1": "Slater"
+ },
+ {
+   "FIELD1": "Slaughterman"
+ },
+ {
+   "FIELD1": "Smallholder"
+ },
+ {
+   "FIELD1": "Social Worker"
+ },
+ {
+   "FIELD1": "Software Consultant"
+ },
+ {
+   "FIELD1": "Software Engineer"
+ },
+ {
+   "FIELD1": "Soldier"
+ },
+ {
+   "FIELD1": "Solicitor"
+ },
+ {
+   "FIELD1": "Song Writer"
+ },
+ {
+   "FIELD1": "Sound Artist"
+ },
+ {
+   "FIELD1": "Sound Engineer"
+ },
+ {
+   "FIELD1": "Sound Technician"
+ },
+ {
+   "FIELD1": "Special Constable"
+ },
+ {
+   "FIELD1": "Special Needs"
+ },
+ {
+   "FIELD1": "Speech Therapist"
+ },
+ {
+   "FIELD1": "Sports Administrator"
+ },
+ {
+   "FIELD1": "Sports Coach"
+ },
+ {
+   "FIELD1": "Sports Commentator"
+ },
+ {
+   "FIELD1": "Sportsman"
+ },
+ {
+   "FIELD1": "Sportsperson"
+ },
+ {
+   "FIELD1": "Sportswoman"
+ },
+ {
+   "FIELD1": "Spring Maker"
+ },
+ {
+   "FIELD1": "Stable Hand"
+ },
+ {
+   "FIELD1": "Staff Nurse"
+ },
+ {
+   "FIELD1": "Stage Director"
+ },
+ {
+   "FIELD1": "Stage Hand"
+ },
+ {
+   "FIELD1": "Stage Manager"
+ },
+ {
+   "FIELD1": "Stage Mover"
+ },
+ {
+   "FIELD1": "Station Manager"
+ },
+ {
+   "FIELD1": "Stationer"
+ },
+ {
+   "FIELD1": "Statistician"
+ },
+ {
+   "FIELD1": "Steel Erector"
+ },
+ {
+   "FIELD1": "Steel Worker"
+ },
+ {
+   "FIELD1": "Steeplejack"
+ },
+ {
+   "FIELD1": "Stenographer"
+ },
+ {
+   "FIELD1": "Steward"
+ },
+ {
+   "FIELD1": "Stewardess"
+ },
+ {
+   "FIELD1": "Stock Controller"
+ },
+ {
+   "FIELD1": "Stock Manager"
+ },
+ {
+   "FIELD1": "Stockbroker"
+ },
+ {
+   "FIELD1": "Stockman"
+ },
+ {
+   "FIELD1": "Stocktaker"
+ },
+ {
+   "FIELD1": "Stone Cutter"
+ },
+ {
+   "FIELD1": "Stone Sawyer"
+ },
+ {
+   "FIELD1": "Stonemason"
+ },
+ {
+   "FIELD1": "Store Detective"
+ },
+ {
+   "FIELD1": "Storeman"
+ },
+ {
+   "FIELD1": "Storewoman"
+ },
+ {
+   "FIELD1": "Street Entertainer"
+ },
+ {
+   "FIELD1": "Street Trader"
+ },
+ {
+   "FIELD1": "Stud Hand"
+ },
+ {
+   "FIELD1": "Student"
+ },
+ {
+   "FIELD1": "Student Nurse"
+ },
+ {
+   "FIELD1": "Student Teacher"
+ },
+ {
+   "FIELD1": "Studio Manager"
+ },
+ {
+   "FIELD1": "Sub-Postmaster"
+ },
+ {
+   "FIELD1": "Sub-Postmistress"
+ },
+ {
+   "FIELD1": "Supervisor"
+ },
+ {
+   "FIELD1": "Supply Teacher"
+ },
+ {
+   "FIELD1": "Surgeon"
+ },
+ {
+   "FIELD1": "Surveyor"
+ },
+ {
+   "FIELD1": "Systems Analyst"
+ },
+ {
+   "FIELD1": "Systems Engineer"
+ },
+ {
+   "FIELD1": "Systems Manager"
+ },
+ {
+   "FIELD1": "TV Editor"
+ },
+ {
+   "FIELD1": "Tachograph Analyst"
+ },
+ {
+   "FIELD1": "Tacker"
+ },
+ {
+   "FIELD1": "Tailor"
+ },
+ {
+   "FIELD1": "Tank Farm Operative"
+ },
+ {
+   "FIELD1": "Tanker Driver"
+ },
+ {
+   "FIELD1": "Tanner"
+ },
+ {
+   "FIELD1": "Tattooist"
+ },
+ {
+   "FIELD1": "Tax Advisor"
+ },
+ {
+   "FIELD1": "Tax Analyst"
+ },
+ {
+   "FIELD1": "Tax Assistant"
+ },
+ {
+   "FIELD1": "Tax Consultant"
+ },
+ {
+   "FIELD1": "Tax Inspector"
+ },
+ {
+   "FIELD1": "Tax Manager"
+ },
+ {
+   "FIELD1": "Tax Officer"
+ },
+ {
+   "FIELD1": "Taxi Controller"
+ },
+ {
+   "FIELD1": "Taxi Driver"
+ },
+ {
+   "FIELD1": "Taxidermist"
+ },
+ {
+   "FIELD1": "Tea Blender"
+ },
+ {
+   "FIELD1": "Tea Taster"
+ },
+ {
+   "FIELD1": "Teacher"
+ },
+ {
+   "FIELD1": "Teachers Assistant"
+ },
+ {
+   "FIELD1": "Technical Advisor"
+ },
+ {
+   "FIELD1": "Technical Analyst"
+ },
+ {
+   "FIELD1": "Technical Assistant"
+ },
+ {
+   "FIELD1": "Technical Author"
+ },
+ {
+   "FIELD1": "Technical Clerk"
+ },
+ {
+   "FIELD1": "Technical Co-ordinator"
+ },
+ {
+   "FIELD1": "Technical Director"
+ },
+ {
+   "FIELD1": "Technical Editor"
+ },
+ {
+   "FIELD1": "Technical Engineer"
+ },
+ {
+   "FIELD1": "Technical Illustrator"
+ },
+ {
+   "FIELD1": "Technical Instructor"
+ },
+ {
+   "FIELD1": "Technical Liaison"
+ },
+ {
+   "FIELD1": "Technical Manager"
+ },
+ {
+   "FIELD1": "Technician"
+ },
+ {
+   "FIELD1": "Telecommunication"
+ },
+ {
+   "FIELD1": "Telecommunications"
+ },
+ {
+   "FIELD1": "Telegraphist"
+ },
+ {
+   "FIELD1": "Telemarketeer"
+ },
+ {
+   "FIELD1": "Telephone Engineer"
+ },
+ {
+   "FIELD1": "Telephonist"
+ },
+ {
+   "FIELD1": "Telesales Person"
+ },
+ {
+   "FIELD1": "Television Director"
+ },
+ {
+   "FIELD1": "Television Engineer"
+ },
+ {
+   "FIELD1": "Television Presenter"
+ },
+ {
+   "FIELD1": "Television Producer"
+ },
+ {
+   "FIELD1": "Telex Operator"
+ },
+ {
+   "FIELD1": "Temperature Time"
+ },
+ {
+   "FIELD1": "Tennis Coach"
+ },
+ {
+   "FIELD1": "Textile Consultant"
+ },
+ {
+   "FIELD1": "Textile Engineer"
+ },
+ {
+   "FIELD1": "Textile Technician"
+ },
+ {
+   "FIELD1": "Textile Worker"
+ },
+ {
+   "FIELD1": "Thatcher"
+ },
+ {
+   "FIELD1": "Theatre Manager"
+ },
+ {
+   "FIELD1": "Theatre Technician"
+ },
+ {
+   "FIELD1": "Theatrical Agent"
+ },
+ {
+   "FIELD1": "Therapist"
+ },
+ {
+   "FIELD1": "Thermal Engineer"
+ },
+ {
+   "FIELD1": "Thermal Insulator"
+ },
+ {
+   "FIELD1": "Ticket Agent"
+ },
+ {
+   "FIELD1": "Ticket Inspector"
+ },
+ {
+   "FIELD1": "Tiler"
+ },
+ {
+   "FIELD1": "Timber Inspector"
+ },
+ {
+   "FIELD1": "Timber Worker"
+ },
+ {
+   "FIELD1": "Tobacconist"
+ },
+ {
+   "FIELD1": "Toll Collector"
+ },
+ {
+   "FIELD1": "Tool Maker"
+ },
+ {
+   "FIELD1": "Tour Agent"
+ },
+ {
+   "FIELD1": "Tour Guide"
+ },
+ {
+   "FIELD1": "Town Clerk"
+ },
+ {
+   "FIELD1": "Town Planner"
+ },
+ {
+   "FIELD1": "Toy Maker"
+ },
+ {
+   "FIELD1": "Toy Trader"
+ },
+ {
+   "FIELD1": "Track Worker"
+ },
+ {
+   "FIELD1": "Tractor Driver"
+ },
+ {
+   "FIELD1": "Tractor Mechanic"
+ },
+ {
+   "FIELD1": "Trade Mark Agent"
+ },
+ {
+   "FIELD1": "Trade Union Official"
+ },
+ {
+   "FIELD1": "Trading Standards"
+ },
+ {
+   "FIELD1": "Traffic Warden"
+ },
+ {
+   "FIELD1": "Train Driver"
+ },
+ {
+   "FIELD1": "Trainee Manager"
+ },
+ {
+   "FIELD1": "Training Advisor"
+ },
+ {
+   "FIELD1": "Training Assistant"
+ },
+ {
+   "FIELD1": "Training Co-ordinator"
+ },
+ {
+   "FIELD1": "Training Consultant"
+ },
+ {
+   "FIELD1": "Training Instructor"
+ },
+ {
+   "FIELD1": "Training Manager"
+ },
+ {
+   "FIELD1": "Training Officer"
+ },
+ {
+   "FIELD1": "Transcriber"
+ },
+ {
+   "FIELD1": "Translator"
+ },
+ {
+   "FIELD1": "Transport Clerk"
+ },
+ {
+   "FIELD1": "Transport Consultant"
+ },
+ {
+   "FIELD1": "Transport Controller"
+ },
+ {
+   "FIELD1": "Transport Engineer"
+ },
+ {
+   "FIELD1": "Transport Manager"
+ },
+ {
+   "FIELD1": "Transport Officer"
+ },
+ {
+   "FIELD1": "Transport Planner"
+ },
+ {
+   "FIELD1": "Travel Agent"
+ },
+ {
+   "FIELD1": "Travel Clerk"
+ },
+ {
+   "FIELD1": "Travel Consultant"
+ },
+ {
+   "FIELD1": "Travel Courier"
+ },
+ {
+   "FIELD1": "Travel Guide"
+ },
+ {
+   "FIELD1": "Travel Guide Writer"
+ },
+ {
+   "FIELD1": "Travel Representative"
+ },
+ {
+   "FIELD1": "Travelling Showman"
+ },
+ {
+   "FIELD1": "Treasurer"
+ },
+ {
+   "FIELD1": "Tree Feller"
+ },
+ {
+   "FIELD1": "Tree Surgeon"
+ },
+ {
+   "FIELD1": "Trichologist"
+ },
+ {
+   "FIELD1": "Trinity House Pilot"
+ },
+ {
+   "FIELD1": "Trout Farmer"
+ },
+ {
+   "FIELD1": "Tug Skipper"
+ },
+ {
+   "FIELD1": "Tunneller"
+ },
+ {
+   "FIELD1": "Turf Accountant"
+ },
+ {
+   "FIELD1": "Turkey Farmer"
+ },
+ {
+   "FIELD1": "Turner"
+ },
+ {
+   "FIELD1": "Tutor"
+ },
+ {
+   "FIELD1": "Typesetter"
+ },
+ {
+   "FIELD1": "Typewriter Engineer"
+ },
+ {
+   "FIELD1": "Typist"
+ },
+ {
+   "FIELD1": "Tyre Builder"
+ },
+ {
+   "FIELD1": "Tyre Fitter"
+ },
+ {
+   "FIELD1": "Tyre Inspector"
+ },
+ {
+   "FIELD1": "Tyre Technician"
+ },
+ {
+   "FIELD1": "Undertaker"
+ },
+ {
+   "FIELD1": "Underwriter"
+ },
+ {
+   "FIELD1": "Upholsterer"
+ },
+ {
+   "FIELD1": "Valuer"
+ },
+ {
+   "FIELD1": "Valve Technician"
+ },
+ {
+   "FIELD1": "Van Driver"
+ },
+ {
+   "FIELD1": "Vehicle Assessor"
+ },
+ {
+   "FIELD1": "Vehicle Body Worker"
+ },
+ {
+   "FIELD1": "Vehicle Engineer"
+ },
+ {
+   "FIELD1": "Vehicle Technician"
+ },
+ {
+   "FIELD1": "Ventriloquist"
+ },
+ {
+   "FIELD1": "Verger"
+ },
+ {
+   "FIELD1": "Veterinary Surgeon"
+ },
+ {
+   "FIELD1": "Vicar"
+ },
+ {
+   "FIELD1": "Video Artist"
+ },
+ {
+   "FIELD1": "Violin Maker"
+ },
+ {
+   "FIELD1": "Violinist"
+ },
+ {
+   "FIELD1": "Voluntary Worker"
+ },
+ {
+   "FIELD1": "Wages Clerk"
+ },
+ {
+   "FIELD1": "Waiter"
+ },
+ {
+   "FIELD1": "Waitress"
+ },
+ {
+   "FIELD1": "Warden"
+ },
+ {
+   "FIELD1": "Warehouse Manager"
+ },
+ {
+   "FIELD1": "Warehouseman"
+ },
+ {
+   "FIELD1": "Warehousewoman"
+ },
+ {
+   "FIELD1": "Watchmaker"
+ },
+ {
+   "FIELD1": "Weaver"
+ },
+ {
+   "FIELD1": "Weighbridge Clerk"
+ },
+ {
+   "FIELD1": "Weighbridge Operator"
+ },
+ {
+   "FIELD1": "Welder"
+ },
+ {
+   "FIELD1": "Welfare Assistant"
+ },
+ {
+   "FIELD1": "Welfare Officer"
+ },
+ {
+   "FIELD1": "Welfare Rights Officer"
+ },
+ {
+   "FIELD1": "Wheel Clamper"
+ },
+ {
+   "FIELD1": "Wholesale Newspaper"
+ },
+ {
+   "FIELD1": "Window Cleaner"
+ },
+ {
+   "FIELD1": "Window Dresser"
+ },
+ {
+   "FIELD1": "Windscreen Fitter"
+ },
+ {
+   "FIELD1": "Wine Merchant"
+ },
+ {
+   "FIELD1": "Wood Carver"
+ },
+ {
+   "FIELD1": "Wood Cutter"
+ },
+ {
+   "FIELD1": "Wood Worker"
+ },
+ {
+   "FIELD1": "Word Processing Operator"
+ },
+ {
+   "FIELD1": "Works Manager"
+ },
+ {
+   "FIELD1": "Writer"
+ },
+ {
+   "FIELD1": "Yacht Master"
+ },
+ {
+   "FIELD1": "Yard Manager"
+ },
+ {
+   "FIELD1": "Youth Hostel Warden"
+ },
+ {
+   "FIELD1": "Youth Worker"
+ },
+ {
+   "FIELD1": "Zoo Keeper"
+ },
+ {
+   "FIELD1": "Zoo Manager"
+ },
+ {
+   "FIELD1": "Zoologist"
+ }
+]

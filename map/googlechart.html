@@ -1,0 +1,128 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="./localdataset/jobbubble.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="./localdataset/d3.tip.js"></script>
+<!-- <script src="./catalog_graph.js"></script> -->
+<link rel="stylesheet" href="styles-example.css">
+
+<body>
+    <div id="target"></div>
+</body>
+
+<style> 
+#chart{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width:800;
+}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="./localdataset/companydata.js"></script>
+<script src="./localdataset/alldata.js"></script>
+<script>
+    $.url = function (name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        return results[1] || 0;
+    }
+    google.charts.load('current', { packages: ['corechart', 'bar'] });
+    google.charts.setOnLoadCallback(drawBasiccompany);
+ 
+    var city = $.url('city');
+    city = decodeURIComponent(city);
+
+    function drawBasiccompany() {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Task');
+        data.addColumn('number', 'frequency');
+        var topcompany = companydata[city].slice(0, 20);
+        data.addRows(topcompany);
+        var options = {
+            backgroundColor: { fill:'transparent' },
+            title: 'Popular companies in ' + city,
+            titleTextStyle: {
+                //color: <string>,    // any HTML string color ('red', '#cc00cc')
+                //fontName: 'Times New Roman', // 
+                fontSize: 15,  //12, 18 whatever you want (don't specify px)
+                bold: true,    // true or false
+                //italic: true   // true of false
+            },
+            chartArea:{left:200,top:100,width:"65%",height:"65%"}, 
+            width: 800,
+            height: 450,
+            hAxis: {
+                title: 'Total number',
+                titleTextStyle: {
+                    //color: <string>,    // any HTML string color ('red', '#cc00cc')
+                    //fontName: 'Times New Roman', // 
+                    fontSize: 10,  //12, 18 whatever you want (don't specify px)
+                    bold: true,    // true or false
+                },
+
+                textStyle: {
+                    color: 'black',
+                    fontSize: 8
+                },
+                gridlines: { color: '#C0C0C0', count: 4, fontSize: 4 }
+            },
+
+
+            vAxis: {
+                title: 'Company names',
+                titleTextStyle: {
+                    fontSize: 10,  
+                    bold: true,    // true or false
+                },
+                textStyle: {
+                    color: 'black',
+                    fontSize: 10
+                },
+            },
+            colors: ['#276F8E'],
+            legend: { position: "none" },
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('company_chart_div'));
+        chart.draw(data, options);
+
+        alldata = alldata[city];
+
+
+        google.visualization.events.addListener(chart, 'select', function (e) {
+            var bar = chart.getSelection();
+            var order = bar['0']['row'];
+            for (var m = 0; m < alldata.length; m++) {
+                if (alldata[m].company === topcompany[order][0]) {
+
+                    topcompanyurl = alldata[m].url;
+                }
+            }
+
+            var win = window.open(topcompanyurl, '_blank');
+            win.focus();
+
+        });
+
+
+
+    }
+
+</script>
+
+
+
+<body style="margin:0px;padding:0px">
+    <table class="columns">
+        <tr>
+            <td>
+                <div id="company_chart_div" style="border: 0px solid #ccc">
+                <!-- <div id="company_chart_div" style="border: 0px solid #ccc"> -->
+                    
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>

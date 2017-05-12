@@ -1,8 +1,35 @@
 var request = require('request');
 var cheerio = require('cheerio');
 var fs = require('fs');
+var topjob = require('./JobTitleData/top50jobcount.json');
 
-var urls = ['https://www.google.com/search?q=software%20engineer%20salary'];
+var city = ['Austin', 'Boston', 'Dallas','Chicago',  'Houston', 'LosAngeles', 'NewYork', "Philadelphia",
+'SanDiego', 'Sanfrancisco', 'Seattle', 'Washington'];
+var length = city.length;
+var cityUrls = {};
+
+// console.log(topjob);
+var geturls = function(){
+    for(var i = 0; i<city.length; i++){
+        var city_key = city[i];
+        top_list = topjob[city_key];
+        var eachUrl = {};
+        for(var j=0; j<top_list.length; j++){
+            var title = top_list[j];
+            var title_list = title.split(" ");
+            var titleStr = ""; 
+            for(var k=0; k<title_list.length; k++){
+                var baseStr = title_list[k] + '%20'
+                titleStr += baseStr; 
+            }
+            titleStr += 'salary';
+            var url = 'https://www.google.com/search?q=' + titleStr; 
+            eachUrl[title] = url;
+        }
+        cityUrls[city_key] = eachUrl;
+}
+return cityUrls; 
+};
 
 var download = function(url){
 	return new Promise(function(resolve, reject){
@@ -30,58 +57,76 @@ var save = function(data, filename){
 };
 
 
-var getData = function(){
 
-    urls.forEach(function(url,i){
-    var page = download(url);
+var getData = function(city, urls){
+    urls.forEach(function(url){
+    var page = download(url[1]);
     page.then(function(body){
-        // console.log(body);
-        var filename = 'SalaryDataSet/' + i + '.html';
-        return save(body, filename);
+        var filename = './SalaryDataSet/test/'+ city  + '_' + url[0]+ '.html';
+        return save(body, filename); 
     });
     });
 };
 
 
-var read = function(i){
-    var content = fs.readFileSync ('SalaryDataSet/'+ i +'.html','utf-8');
-    // console.log(i);
-    content = fs.appendFileSync('SalaryDataSet/salary.txt', content);
+var Clear = function(city, urls){
+    urls.forEach(function(url){
+        var filename = './SalaryDataSet/'+ city  + '_' + url[0]+ '.html';
+        var content = fs.readFileSync(filename, 'utf-8');
+        content=content.replace(/\n/g,'');
+        content=content.replace(/\r\n/g,'');
+        content = fs.writeFileSync('./SalaryDataSet/'+ city  + '_' + url[0]+ '.html', content);
+    });
+
+};
+
+var getSalary = function(city, urls){
+    var eachcitysalary = {};
+    urls.forEach(function(url){
+        var data = fs.readFileSync('./SalaryDataSet/'+ city  + '_' + url[0]+ '.html','utf-8');
+        // console.log(data); 
+        var $ = cheerio.load(data);
+        $('span._m3b').each(function(i, element){
+            // console.log(typeof($(element).text()));
+            var salary = $(element).text();
+            salarylist = salary.split('(');
+            // console.log(salarylist); 
+            eachcitysalary[url[0]] = salarylist[0]; 
+        });
+        
+             
+    })
+    return eachcitysalary;   
 };
 
 
-var Combine = function(){
-    var empty = "";
-    fs.writeFile('SalaryDataSet/salary.txt', empty);
+//Main functions to get salary data in proper data structure
 
-    for(var i=0; i< urls.length;i++){
-        read(i);
+var getcitysalary = function(){
+    var citySalary = {};
+    for (var i = 0; i< city.length; i++){
+        var c_key = city[i];
+        var urls = [];
+        var titles_incity = [];
+        var cityUrls = geturls(); 
+        // console.log(cityUrls); 
+     
+        var jobset = cityUrls[c_key];
+        for(var title in jobset){
+            titles_incity.push(title);
+            titles_incity.push(jobset[title]); 
+            urls.push(titles_incity);
+            titles_incity = [];
+        }
+        // setTimeout(function(){ getData(c_key, urls); }, 5000);
+        getData(c_key, urls); 
+
     }
-};
+    return citySalary;
+}; 
+
+// var citySalary = getcitysalary();
+// console.log(getcitysalary());
+fs.writeFile('./map/salaryRequested.json', JSON.stringify(getcitysalary()));
 
 
-var Clear = function(){
-
-    content = fs.readFileSync('SalaryDataSet/salary.txt','utf-8');
-    content=content.replace(/\n/g,'');
-    content=content.replace(/\r\n/g,'');
-    
-    content = fs.writeFileSync('SalaryDataSet/salary.txt', content);
-
-};
-
-var getSalary = function(){
-    var data = fs.readFileSync('SalaryDataSet/salary.txt','utf-8');
-    var $ = cheerio.load(data);
-    var salaries = [];
-    $('span._m3b').each(function(i, element){
-        salaries.push($(element).text());
-    });
-    console.log(salaries);
-    return salaries;
-};
-
-getData();
-Combine();
-Clear();
-getSalary();
